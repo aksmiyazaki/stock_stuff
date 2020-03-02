@@ -31,7 +31,10 @@ for target in stock_list:
                  "EV / EBITDA": "",
                  "Liquidez Corr": "",
                  "Div Br/ Patrim": "",
-                 "Cres. Rec (5a)": ""
+                 "Cres. Rec (5a)": "",
+                 "Últ balanço processado": "",
+                 "Setor": "",
+                 "Subsetor": "",
                  }
 
     macro_table = parsed.find_all('table', class_="w728")
